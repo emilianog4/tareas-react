@@ -1,0 +1,34 @@
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.input{
+    width: 350px;
+    font-size: 18px;
+    background-color: white;
+    padding: 14px 32px 14px 16px;
+    border-radius: 15px;
+    border: 4px solid rgb(68, 68, 68);
+    outline: none;
+}
+
+.boton{
+    padding: 16px;
+    font-size: 18px;
+    margin-left: 5px;
+    border: 4px solid rgb(7, 59, 15);
+    font-family: Roboto, sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+    background: #00471b;
+    color: #fff;
+    text-transform: capitalize; 
+}
+
+.boton:active {
+    background-color: rgb(7, 44, 7);
+    color: rgb(255, 255, 255);
+}

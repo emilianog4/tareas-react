@@ -1,0 +1,51 @@
+.tarea-contenedor{
+    width:500px;
+    min-height: 65px;
+    background-color: #1b1b32;
+    margin: 5px 0;
+    padding: 8px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    border: 4px solid rgb(123, 123, 123);
+    cursor: pointer;
+}
+.tarea-contenedor:hover{
+    width:520px;
+    min-height: 68px;
+}
+.tarea-texto{
+    width:100%;
+    height:100%;
+    font-size:20px;
+    display: flex;
+    align-items: center;
+    overflow-wrap: anywhere;
+}
+
+.tarea-icono{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    
+}
+.tarea-icono:hover{
+    color: red;
+}
+
+/* Colores */
+.tarea-contenedor:nth-child(3n+1){
+    background-color: #1b1b32;
+}
+.tarea-contenedor:nth-child(3n+2){
+    background-color: #1b1b32d8;
+}
+.tarea-contenedor:nth-child(3n+3){
+    background-color: #1b1b329b;
+}
+
+.tarea-contenedor.completada {
+    background-color: #1ca310e0;
+    text-decoration: line-through;
+}
